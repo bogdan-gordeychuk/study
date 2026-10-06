@@ -4,8 +4,7 @@ export function App() {
   const [done, setDone] = useState(false);
 
   function toggleDone(): void {
-    // Упражнение 1: поменяй done на противоположное значение.
-    // Код для этого шага пишется только здесь.
+    setDone(!done);
   }
 
   return (
